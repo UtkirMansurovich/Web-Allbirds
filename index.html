@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../package/swiper-bundle.min.css">
+  <title>Document</title>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <div class="navInside">
+            <div class="menWomen">
+                <a href="#">men</a>
+                <a href="#">women</a>
+            </div>
+            <div class="vectorimg">
+                <a href="#"><img class="vector" src="Photo/vectorimg.png" alt="Photo"></a>
+            </div>
+            
+            <ul class="navbarNav">
+                <a class="close" style="text-decoration: none; color: #333; " href="#"><i onclick="shut()" class="fa fa-times" aria-hidden="true"></i></a>
+                <li class="navbarNavLi"><a class="navbarNavA" href="#">our materials</a></li>
+                <li class="navbarNavLi"><a class="navbarNavA" href="#">stores</a></li>
+                <li class="navbarNavLi"><a class="navbarNavA" href="#"><img src="Photo/china profile.png" alt="Photo"></a> </li>
+                <li class="navbarNavLi"><a class="navbarNavA" href="#"><img src="Photo/question 15.png" alt="Photo"></a> </li>
+                <li class="navbarNavLi"><a class="navbarNavA" href="#"><img src="Photo/korzinka.png" alt="Photo"></a> </li>
+            </ul>
+        </div>
+        <a style="text-decoration: none; color: #333;" href="#"><i onclick="openNavbar()" class="fa fa-bars" aria-hidden="true"></i></a>
+    </nav>    
+
+    <!-- header -->
+    <header>
+        <div class="h1AndP">
+            <h1 class="run">Running Shoes Made Form Trees</h1>
+            <p class="new">New colors to keep you moving</p>
+        </div>
+        <div class="shopMenWomen">
+            <div class="shopMenWomenInside">
+                <div class="shopMenWomenOne">
+                    <button class="shopMen">shop men</button>
+                </div>
+                <div class="shopMenWomenTwo">
+                    <button class="shopWomen">shop women</button>
+                </div>
+            </div>
+        </div>
+     </header>
+
+     <!-- section-1 -->
+     <section id="sectionOne">
+         <div class="sectionInside">
+             <div class="divH2">
+                <h2 class="sectionOneH2">Our Favorites</h2>
+             </div>
+            <div class="shoesApparelBasics">
+                <button class="shoes">shoes</button>
+                <button class="apparel">apparel</button>
+                <button class="basics">basics</button>
+            </div>
+            <hr class="sectionOneHr">
+            <div class="threeImg">
+                <div class="row">
+                    <div class="imgOne">
+                        <button class="sectionOneShopMen">shop men</button>
+                        <button class="sectionOneShopWomen">shop women</button>
+                    </div>
+                    <div class="treeDasher">
+                        <h3 class="treeH3">Tree Dasher</h3>
+                        <hr style="border: 1px solid #D3D4D5;">
+                        <div style="display: flex; align-items: center;">
+                            <img src="Photo/latter.png" alt="Photo">
+                            <p class="treeP">Daily Running Shoe</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="imgTwo">
+                        <button class="sectionOneShopMen">shop men</button>
+                        <button class="sectionOneShopWomen">shop women</button>
+                    </div>
+                <div class="treeDasher">
+                    <h3 class="treeH3">Tree Runner</h3>
+                    <hr style="border: 1px solid #D3D4D5;">
+                    <div style="display: flex; align-items: center;">
+                        <img src="Photo/latter.png" alt="Photo">
+                        <p class="treeP">Light and Breezy Sneaker</p>
+                    </div>
+                </div>
+                </div>
+                
+                <div class="row">
+                    <div class="imgThree">
+                        <button class="sectionOneShopMen">shop men</button>
+                        <button class="sectionOneShopWomen">shop women</button>
+                     </div>
+                     <div class="treeDasher">
+                         <h3 class="treeH3">Wool Runner</h3>
+                         <hr style="border: 1px solid #D3D4D5;">
+                         <div style="display: flex; align-items: center;">
+                             <img src="Photo/cloud.png" alt="Photo">
+                             <p class="treeP">Cozy Sneaker</p>
+                         </div>
+                     </div>
+                </div>
+                
+            </div>
+    </section>
+    
+    
+    <!-- section 2 -->
+    <section id="SectionTwo">
+        <div class="brownJeans"></div>
+        <div class="colorful">
+            <h2 class="colorfulH2">Colorful By Nature</h2>
+            <p class="colorfulP">Merino Wool Shoes In Limited Edition Hues</p>
+            <div class="buttonColorful">
+                <button class="colorfulButton">shop men</button>
+                <button class="colorfulButton">shop women</button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section-3 -->
+    <section id="sectionThree">
+        <div class="shopByCategory">
+            <div>
+                <h2 class="sectionThreehH3">Shop By Category</h2>
+            </div>
+            <div class="slider">
+                <!-- Swiper. Slide for big size   -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"  ><div class="slideInside" style="background: url('Photo/img5.jpg') no-repeat center center/cover;"></div><div><h3 class="sectionThreeH3">Men's Shoes</h3></div></div>
+                    <div class="swiper-slide"  ><div class="slideInside" style="background: url('Photo/img6.jpg') no-repeat center center/cover;"></div><div><h3 class="sectionThreeH3">Women's Shoes</h3></div></div>
+                    <div class="swiper-slide"  ><div class="slideInside" style="background: url('Photo/img7.jpg') no-repeat center center/cover;"></div><div><h3 class="sectionThreeH3">Men's Apparel</h3></div></div>
+                    <div class="swiper-slide"  ><div class="slideInside" style="background: url('Photo/img6.jpg') no-repeat center center/cover;"></div><div><h3 class="sectionThreeH3">Women's Shoes</h3></div></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <p class="append-buttons">
+                        <a href="#" class="prepend-2-slides">Prepend 2 Slides</a>
+                        <a href="#" class="prepend-slide">Prepend Slide</a>
+                        <a href="#" class="append-slide">Append Slide</a>
+                        <a href="#" class="append-2-slides">Append 2 Slides</a>
+                      </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-4 -->
+    <section id="sectionFour">
+        <div class="sectionFourImg"></div>
+        <div class="sectionFourMade">
+            <h2 class="sectionFourH2">Made From Nature, For Nature</h2>
+            <p class="sectionFourP">We craft with planet-friendly natural materials, like merino wool and eucalyptus trees, because they're our best chance for a sustainable future.</p>
+            <button class="sectionFourbutton">see now</button>
+        </div>
+    </section>
+    
+    <!-- section-5 -->
+    <section id="sectionThree">
+        <div class="shopByCategory">
+            <div>
+                <h2 class="sectionThreehH3">New Arrivals</h2>
+            </div>
+            <div class="slider">
+                <!-- Swiper. Slide for big size   -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                    <div class="swiper-slide"  ><div class="slideInside" style="background: url('Photo/img9.jpg') no-repeat center center/cover;"></div><div><h3 class="sectionThreeH3">Women's Tree Dasher</h3><p class="sectionFifeP">Limited Edition Color, Gaia</p></div></div>
+                    <div class="swiper-slide"  ><div class="slideInside" style="background: url('Photo/img10.jpg') no-repeat center center/cover;"></div><div><h3 class="sectionThreeH3">Men's Tree Dasher</h3><p class="sectionFifeP">Limited Edition Color, Terra</p></div></div>
+                    <div class="swiper-slide"  ><div class="slideInside" style="background: url('Photo/img11.jpg') no-repeat center center/cover;"></div><div><h3 class="sectionThreeH3">Women's Tree Runner</h3><p class="sectionFifeP">Limited Edition Color, Aspen</p></div></div>
+                    <div class="swiper-slide"  ><div class="slideInside" style="background: url('Photo/img9.jpg') no-repeat center center/cover;"></div><div><h3 class="sectionThreeH3">Men's Tree Runner</h3><p class="sectionFifeP">Classic Color, Mist</p></div></div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <p class="append-buttons">
+                        <a href="#" class="prepend-2-slides">Prepend 2 Slides</a>
+                        <a href="#" class="prepend-slide">Prepend Slide</a>
+                        <a href="#" class="append-slide">Append Slide</a>
+                        <a href="#" class="append-2-slides">Append 2 Slides</a>
+                      </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-6 -->
+    <section id="sectionFour">
+        <div class="sectionSexImg"></div>
+        <div class="sectionFourMade">
+            <h2 class="sectionFourH2">Tread Lighter</h2>
+            <p class="sectionFourP">The standard sneaker emits 12.5 kg CO2e. Our average shoe emits 7.6 kg CO2e. Better, but we want to do more. Our goal—have no carbon footprint from the start. The first step to reduce our footprint is to measure it. And even though we’re not at zero yet, we can be. It’s all part of the plan.</p>
+            <button class="sectionFourbutton">Our Sustainability Approach</button>
+        </div>
+    </section>
+
+    <!-- section-7 -->
+    <section id="sectionSeven">
+        <div class="shopByCategory">
+            <div>
+                <h2 class="sectionThreehH3">Stories</h2>
+            </div>
+        
+        <div class="sectionSeventhreeImg">
+                <div class="row">
+                    <div class="sectionSevenImgOne"></div>
+                <div class="sectionSevenTreeDasher">
+                    <h3 class="treeH3">Run Hard, Tread Light</h3>
+                    <p class="sectionSevenP">Meet the Tree Dasher—a performance shoe made with natural materials.</p>
+                </div>
+                </div>
+                
+                <div class="row">
+                    <div class="sectionSevenImgTwo"></div>
+                <div class="sectionSevenTreeDasher">
+                    <h3 class="treeH3">Our Doors Are Open</h3>
+                    <p class="sectionSevenP">The well-being of our retail communities is top priority as our stores re-open around the globe.</p>
+                </div>
+                </div>
+                
+                <div class="row">
+                    <div class="sectionSevenImgThree"></div>
+                <div class="sectionSevenTreeDasher">
+                    <h3 class="treeH3">We're A Certified B Corp</h3>
+                    <p class="sectionSevenP">From the very beginning, the environment has been a stakeholder here.</p>
+                </div>
+                </div>
+        </div>
+    </div>
+    </section>
+    
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footerInput">
+                <form action="https:google.com">
+                    <label for="text">Enter email to stay touch!</label>
+                    <input type="text">
+                    <button>sign up</button>
+                </form>
+            </div>
+            <div class="footerDivUl">
+                <ul class="footerUl">
+                    <li class="footerLi"><h4 class="footerH4">Help</h4></li>
+                    <li class="footerLi"><a class="footerA" href="#">1-888-963-8944</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">1-814-251-9966 (Text)</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">help@allbirds.com</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Returns/Exchanges</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">FAQ/Contact Us</a></li>
+                </ul>
+                 <ul class="footerUl">
+                    <li class="footerLi"><h4 class="footerH4">Shop</h4></li>
+                    <li class="footerLi"><a class="footerA" href="#">Men's Shoes</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Women's Shoes</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Men's Apparel</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Women's Apparel</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Socks</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Gift Cards</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Download the Allbirds App</a></li>
+                </ul>
+                 <ul class="footerUl">
+                    <li class="footerLi"><h4 class="footerH4">Company</h4></li>
+                    <li class="footerLi"><a class="footerA" href="#">Our Stores</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Our Story</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Our Materials</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Sustainability</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Partnerships</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Affiliates</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Bulk Orders</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Careers</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">Press</a></li>
+                    <li class="footerLi"><a class="footerA" href="#">California Transparency Act</a></li>
+                </ul>
+             </div>
+            <div class="divThree">
+                <div class="divThreeInside">
+                    <h4 class="divH4">Follow the Flock</h4>
+                    <p class="divP">Exclusive offers, a heads up on new things, and sightings of Allbirds in the wild. Oh, we have cute sheep, too. #weareallbirds</p>
+                    <img src="Photo/instagram.png" alt="Photo" class="divImg">
+                    <img src="Photo/twitter.png" alt="Photo" class="divImg">
+                    <img src="Photo/facebool.png" alt="Photo" class="divImg">
+                    <img src="Photo/pad.png" alt="Photo" class="divImg">
+                </div>
+                <div class="certified">
+                    <img src="Photo/certified.png" alt="Photo" class="certifiedImg">
+                </div>
+                <div class="flag">
+                    <img src="Photo/usa.png" alt="Photo" class="usa">
+                    <img src="Photo/nwziland.png" alt="Photo" class="usa">
+                    <img src="Photo/australia.png" alt="Photo" class="usa">
+                    <img src="Photo/canada.png" alt="Photo" class="usa">
+                    <img src="Photo/greatBritain.png" alt="Photo" class="usa">
+                    <img src="Photo/uroupeOne.png" alt="Photo" class="usa">
+                    <img src="Photo/stateEuro.png" alt="Photo" class="usa">
+                    <img src="Photo/japan.png" alt="Photo" class="usa">
+                    <img src="Photo/korea.png" alt="Photo" class="usa">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="c">© 2021 Allbirds, Inc. All Rights Reserved.<a href="#">Terms</a>
+                    <a href="#">Privacy & Accessibility</a></p>
+               </div>
+        </div>
+        
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <!-- Swiper JS -->
+    <script src="../package/swiper-bundle.min.js"></script>
+    <script>
+        // slide
+var appendNumber = 4;
+    var prependNumber = 1;
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      loop: true,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+    document.querySelector('.prepend-2-slides').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.prependSlide([
+        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>',
+        '<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>'
+      ]);
+    });
+    document.querySelector('.prepend-slide').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.prependSlide('<div class="swiper-slide">Slide ' + (--prependNumber) + '</div>');
+    });
+    document.querySelector('.append-slide').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.appendSlide('<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>');
+    });
+    document.querySelector('.append-2-slides').addEventListener('click', function (e) {
+      e.preventDefault();
+      swiper.appendSlide([
+        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>',
+        '<div class="swiper-slide">Slide ' + (++appendNumber) + '</div>'
+      ]);
+    });
+</script>
+</body>
+</html>
